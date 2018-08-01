@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TXTextControl.Windows.Forms</id>
+    <version>25.0.1000.500</version>
+    <description>TXTextControl.Windows.Forms</description>
+    <authors>Janus Systems</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/TXTextControl-Nuget/master/tx.png</iconUrl>
+    <projectUrl>https://www.textcontrol.com/products/windows-forms/tx-text-control-dotnet/overview/</projectUrl>
+    <tags>Janus</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="TXTextControl" version="25.0.1800.500" />
+    </dependencies>
+    <references>
+      <reference file="TXTextControl.Windows.Forms.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="de\TXTextControl.Windows.Forms.Design.resources.dll" target="lib\net40\de" />
+    <file src="TXTextControl.Windows.Forms.Design.dll" target="lib\net40" />
+    <file src="TXTextControl.Windows.Forms.dll" target="lib\net40" />
+    <file src="TXTextControl.Windows.Forms.xml" target="lib\net40" />
+  </files>
+</package>

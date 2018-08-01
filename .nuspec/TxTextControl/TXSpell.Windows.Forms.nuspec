@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TXSpell.Windows.Forms</id>
+    <version>7.0.600.500</version>
+    <description>TXSpell.Windows.Forms</description>
+    <authors>textcontrol</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/TXTextControl-Nuget/master/tx.png</iconUrl>
+    <projectUrl>https://www.textcontrol.com/products/windows-forms/tx-spell-dotnet/overview/</projectUrl>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="TXSpell" version="7.0.600.500" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="TXSpell.Windows.Forms.dll" target="lib\net40" />
+    <file src="TXSpell.Windows.Forms.xml" target="lib\net40" />
+  </files>
+</package>

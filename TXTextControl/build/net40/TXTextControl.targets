@@ -1,0 +1,16 @@
+<Project>
+  <!-- TXTextControl additional files are platform specific (x86 or x64). -->
+  <ItemGroup Condition=" '$(PlatformTarget)' == 'x86' ">
+    <TXTextControlAdditionalFiles Include="$(MSBuildThisFileDirectory)..\..\lib\net40\bin\*.*" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(PlatformTarget)' == 'x64' ">
+    <TXTextControlAdditionalFiles Include="$(MSBuildThisFileDirectory)..\..\lib\net40\bin64\*.*" />
+  </ItemGroup>
+  
+  <!-- Copy files after build -->
+  <Target Name="CopyTXTextControlAdditionalFiles" AfterTargets="Build" Condition=" '$(PlatformTarget)' == 'x86' Or '$(PlatformTarget)' == 'x64' ">
+    <Message Text="Copy TXTextControl additional files..." Importance="normal" />    
+    <Copy SourceFiles="@(TXTextControlAdditionalFiles)" DestinationFolder="$(OutDir)" />    
+    <Message Text="Copy TXTextControl additional files... done" Importance="normal" />
+  </Target>
+</Project>

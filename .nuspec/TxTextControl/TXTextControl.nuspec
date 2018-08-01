@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TXTextControl</id>
+    <version>25.0.1800.500</version>
+    <description>TXTextControl</description>
+    <authors>textcontrol</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/TXTextControl-Nuget/master/tx.png</iconUrl>
+    <projectUrl>https://www.textcontrol.com/products/windows-forms/tx-text-control-dotnet/overview/</projectUrl>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="TXTextControl.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="bin\tx25_*.dll" target="lib\net40\bin" />
+    <file src="bin\txic.dll" target="lib\net40\bin" />
+    <file src="bin\txkernel.dll" target="lib\net40\bin" />
+    <file src="bin\txpdf.dll" target="lib\net40\bin" />
+    <file src="bin\txtools.dll" target="lib\net40\bin" />
+    <file src="bin64\tx25_*.dll" target="lib\net40\bin64" />
+    <file src="bin64\txic.dll" target="lib\net40\bin64" />
+    <file src="bin64\txkernel.dll" target="lib\net40\bin64" />
+    <file src="bin64\txpdf.dll" target="lib\net40\bin64" />
+    <file src="bin64\txtools.dll" target="lib\net40\bin64" />
+    <file src="build\net40\TXTextControl.targets" target="build\net40" />
+    <file src="de\TXTextControl.resources.dll" target="lib\net40\de" />
+    <file src="TXTextControl.dll" target="lib\net40" />
+    <file src="TXTextControl.xml" target="lib\net40" />
+  </files>
+</package>
