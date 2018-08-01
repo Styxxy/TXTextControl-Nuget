@@ -13,3 +13,6 @@ Currently only the WinForms libraries are being packaged.
 Run create-nupkg-txtextcontrol.cmd from the command line. You are prompted to insert to installation path (default = %ProgramW6432%\Text Control GmbH) and the desired version for TXTextControl (default = 25.0.1800.500) and TXSpell (default = 7.0.600.500).
 
 The Nuget packages will be generated in the bin folder.
+
+## Remarks
+Make sure you have nuget.exe in your PATH or next to the CMD file.
